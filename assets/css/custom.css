@@ -13,7 +13,7 @@ a:hover {
 h1 {
     margin: .67em 0;
     padding-top: 25px;
-    font-size: 2em;
+    font-size: 1.6em;
 }
 
 .masthead {
@@ -127,6 +127,17 @@ body {
 .masthead-nav > .active > a:focus {
     color: #444;
     border-bottom-color: #444;
+}
+
+.masthead-nav .nav-github,
+.masthead-nav .nav-twitter {
+  padding: 0 10px;
+  background-color: #666;
+}
+
+.masthead-nav .nav-github a,
+.masthead-nav .nav-twitter a{
+  color: #eee;
 }
 
 @media (min-width: 768px) {
@@ -266,7 +277,8 @@ code {
 }
 
 .post-body {
-    padding-top: 25px;
+    padding-top: 30px;
+    font-size: 0.8em;
 }
 
 .post-foot {
